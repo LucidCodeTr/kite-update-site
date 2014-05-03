@@ -3,10 +3,10 @@
    <description name="Kite Designer Update Site" url="http://dev.lucidcode.com.tr/update">
       Update Site for Kite Designer
    </description>
-   <feature url="features/kitePageDesignerFeature_1.0.0.jar" id="kitePageDesignerFeature" version="1.0.0">
+   <feature url="features/kiteSwtBrowserFeature_1.0.0.jar" id="kiteSwtBrowserFeature" version="1.0.0">
       <category name="kiteDesigner"/>
    </feature>
-   <feature url="features/kiteSwtBrowserFeature_1.0.0.jar" id="kiteSwtBrowserFeature" version="1.0.0">
+   <feature url="features/kitePageDesignerFeature_1.0.8.jar" id="kitePageDesignerFeature" version="1.0.8">
       <category name="kiteDesigner"/>
    </feature>
    <category-def name="kiteDesigner" label="Kite Designer"/>

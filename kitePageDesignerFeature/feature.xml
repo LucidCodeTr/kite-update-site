@@ -2,7 +2,7 @@
 <feature
       id="kitePageDesignerFeature"
       label="Kite Page Designer Feature"
-      version="1.0.0"
+      version="1.0.8"
       provider-name="Lucid Bilgisayar Hiz. Dan. San. ve Tic. Ltd. Şti.">
 
    <description url="http://www.lucidcode.com.tr">
@@ -101,43 +101,44 @@ Feature without first obtaining a licence via the web site above.
       <import plugin="org.eclipse.wst.sse.core" version="1.1.504" match="greaterOrEqual"/>
       <import plugin="org.eclipse.wst.sse.ui" version="1.2.3" match="greaterOrEqual"/>
       <import plugin="javax.servlet" version="2.5.0" match="greaterOrEqual"/>
-      <import plugin="org.mortbay.jetty.server" version="6.1.23" match="greaterOrEqual"/>
-      <import plugin="org.mortbay.jetty.util" version="6.1.23" match="greaterOrEqual"/>
       <import plugin="org.eclipse.core.resources" version="3.6.1" match="greaterOrEqual"/>
       <import plugin="org.apache.commons.lang" version="2.3.0" match="greaterOrEqual"/>
       <import plugin="org.apache.commons.io" version="2.0.1" match="greaterOrEqual"/>
+      <import plugin="tr.com.lucidcode.kite.eclipse.page.browser" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.ui.ide" version="3.6.2" match="greaterOrEqual"/>
       <import plugin="org.eclipse.m2e.archetype.common" version="1.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.m2e.maven.runtime" version="1.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.core.expressions" version="3.4.200" match="greaterOrEqual"/>
       <import plugin="org.eclipse.m2e.core" version="1.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.m2e.core.ui" version="1.4.0" match="greaterOrEqual"/>
-      <import plugin="tr.com.lucidcode.kite.eclipse.page.browser" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jetty.util" version="7.6.15" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jetty.server" version="7.6.15" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jetty.http" version="7.6.15" match="greaterOrEqual"/>
    </requires>
 
    <plugin
          id="tr.com.lucidcode.kite.eclipse.page.designer"
          download-size="0"
          install-size="0"
-         version="1.0.1"
-         unpack="false"/>
-
-   <plugin
-         id="tr.com.lucidcode.eclipse.perspective"
-         download-size="0"
-         install-size="0"
-         version="1.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="tr.com.lucidcode.eclipse.wizard.page"
-         download-size="0"
-         install-size="0"
-         version="1.0.0"
+         version="1.0.3"
          unpack="false"/>
 
    <plugin
          id="tr.com.lucidcode.kite.eclipse.wizard.project"
+         download-size="0"
+         install-size="0"
+         version="1.0.6"
+         unpack="false"/>
+
+   <plugin
+         id="tr.com.lucidcode.kite.eclipse.wizard.page"
+         download-size="0"
+         install-size="0"
+         version="1.0.2"
+         unpack="false"/>
+
+   <plugin
+         id="tr.com.lucidcode.kite.eclipse.perspective"
          download-size="0"
          install-size="0"
          version="1.0.1"
