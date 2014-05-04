@@ -2,7 +2,7 @@
 <feature
       id="kitePageDesignerFeature"
       label="Kite Page Designer Feature"
-      version="1.0.8"
+      version="1.0.11"
       provider-name="Lucid Bilgisayar Hiz. Dan. San. ve Tic. Ltd. Şti.">
 
    <description url="http://www.lucidcode.com.tr">
@@ -120,28 +120,28 @@ Feature without first obtaining a licence via the web site above.
          id="tr.com.lucidcode.kite.eclipse.page.designer"
          download-size="0"
          install-size="0"
-         version="1.0.3"
+         version="1.0.4"
          unpack="false"/>
 
    <plugin
          id="tr.com.lucidcode.kite.eclipse.wizard.project"
          download-size="0"
          install-size="0"
-         version="1.0.6"
+         version="1.0.9"
          unpack="false"/>
 
    <plugin
          id="tr.com.lucidcode.kite.eclipse.wizard.page"
          download-size="0"
          install-size="0"
-         version="1.0.2"
+         version="1.0.3"
          unpack="false"/>
 
    <plugin
          id="tr.com.lucidcode.kite.eclipse.perspective"
          download-size="0"
          install-size="0"
-         version="1.0.1"
+         version="1.0.2"
          unpack="false"/>
 
 </feature>
